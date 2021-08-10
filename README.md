@@ -11,3 +11,4 @@ Prior to using Tableau, I first cleaned the data via Python and the Pandas libra
 ## Analysis
 
 I focused on Generational and Gender patterns with regards to usage. Asking what spots where a trend for each generation or even gender? Which generation was more likely to have a subscription?
+<img width="984" alt="Screen Shot 2021-08-10 at 1 51 23 AM" src="https://user-images.githubusercontent.com/79786994/128829606-749ba947-76b0-4fdd-94b0-0be207d2468a.png">
