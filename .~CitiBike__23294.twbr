@@ -35,8 +35,11 @@
           <named-connection caption='2019-citibike-summer' name='textscan.0n183i31ap8jmp16fhxar0nh0xtl'>
             <connection class='textscan' directory='/Users/xtinechits/Desktop/CitiBike_Tableu/Resources/2019' filename='2019-citibike-summer.csv' password='' server='' />
           </named-connection>
+          <named-connection caption='JC2019-citibike-summer' name='textscan.0qgj84904qvdqs126u2b50jewyl5'>
+            <connection class='textscan' directory='/Users/xtinechits/Desktop/CitiBike_Tableu/Resources/2019' filename='JC2019-citibike-summer.csv' password='' server='' />
+          </named-connection>
         </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0n183i31ap8jmp16fhxar0nh0xtl' name='2019-citibike-summer.csv' table='[2019-citibike-summer#csv]' type='table'>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0qgj84904qvdqs126u2b50jewyl5' name='JC2019-citibike-summer.csv' table='[JC2019-citibike-summer#csv]' type='table'>
           <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
             <column datatype='real' name='tripduration' ordinal='0' />
             <column datatype='datetime' name='starttime' ordinal='1' />
@@ -55,7 +58,7 @@
             <column datatype='string' name='gender' ordinal='14' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0n183i31ap8jmp16fhxar0nh0xtl' name='2019-citibike-summer.csv' table='[2019-citibike-summer#csv]' type='table'>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0qgj84904qvdqs126u2b50jewyl5' name='JC2019-citibike-summer.csv' table='[JC2019-citibike-summer#csv]' type='table'>
           <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
             <column datatype='real' name='tripduration' ordinal='0' />
             <column datatype='datetime' name='starttime' ordinal='1' />
@@ -78,7 +81,7 @@
           <metadata-record class='capability'>
             <remote-name />
             <remote-type>0</remote-type>
-            <parent-name>[2019-citibike-summer.csv]</parent-name>
+            <parent-name>[JC2019-citibike-summer.csv]</parent-name>
             <remote-alias />
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
@@ -95,55 +98,55 @@
             <remote-name>tripduration</remote-name>
             <remote-type>5</remote-type>
             <local-name>[tripduration]</local-name>
-            <parent-name>[2019-citibike-summer.csv]</parent-name>
+            <parent-name>[JC2019-citibike-summer.csv]</parent-name>
             <remote-alias>tripduration</remote-alias>
             <ordinal>0</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>starttime</remote-name>
             <remote-type>135</remote-type>
             <local-name>[starttime]</local-name>
-            <parent-name>[2019-citibike-summer.csv]</parent-name>
+            <parent-name>[JC2019-citibike-summer.csv]</parent-name>
             <remote-alias>starttime</remote-alias>
             <ordinal>1</ordinal>
             <local-type>datetime</local-type>
             <aggregation>Year</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>stoptime</remote-name>
             <remote-type>135</remote-type>
             <local-name>[stoptime]</local-name>
-            <parent-name>[2019-citibike-summer.csv]</parent-name>
+            <parent-name>[JC2019-citibike-summer.csv]</parent-name>
             <remote-alias>stoptime</remote-alias>
             <ordinal>2</ordinal>
             <local-type>datetime</local-type>
             <aggregation>Year</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>start station id</remote-name>
             <remote-type>20</remote-type>
             <local-name>[start station id]</local-name>
-            <parent-name>[2019-citibike-summer.csv]</parent-name>
+            <parent-name>[JC2019-citibike-summer.csv]</parent-name>
             <remote-alias>start station id</remote-alias>
             <ordinal>3</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>start station name</remote-name>
             <remote-type>129</remote-type>
             <local-name>[start station name]</local-name>
-            <parent-name>[2019-citibike-summer.csv]</parent-name>
+            <parent-name>[JC2019-citibike-summer.csv]</parent-name>
             <remote-alias>start station name</remote-alias>
             <ordinal>4</ordinal>
             <local-type>string</local-type>
@@ -152,49 +155,49 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>start station latitude</remote-name>
             <remote-type>5</remote-type>
             <local-name>[start station latitude]</local-name>
-            <parent-name>[2019-citibike-summer.csv]</parent-name>
+            <parent-name>[JC2019-citibike-summer.csv]</parent-name>
             <remote-alias>start station latitude</remote-alias>
             <ordinal>5</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>start station longitude</remote-name>
             <remote-type>5</remote-type>
             <local-name>[start station longitude]</local-name>
-            <parent-name>[2019-citibike-summer.csv]</parent-name>
+            <parent-name>[JC2019-citibike-summer.csv]</parent-name>
             <remote-alias>start station longitude</remote-alias>
             <ordinal>6</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>end station id</remote-name>
             <remote-type>20</remote-type>
             <local-name>[end station id]</local-name>
-            <parent-name>[2019-citibike-summer.csv]</parent-name>
+            <parent-name>[JC2019-citibike-summer.csv]</parent-name>
             <remote-alias>end station id</remote-alias>
             <ordinal>7</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>end station name</remote-name>
             <remote-type>129</remote-type>
             <local-name>[end station name]</local-name>
-            <parent-name>[2019-citibike-summer.csv]</parent-name>
+            <parent-name>[JC2019-citibike-summer.csv]</parent-name>
             <remote-alias>end station name</remote-alias>
             <ordinal>8</ordinal>
             <local-type>string</local-type>
@@ -203,49 +206,49 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>end station latitude</remote-name>
             <remote-type>5</remote-type>
             <local-name>[end station latitude]</local-name>
-            <parent-name>[2019-citibike-summer.csv]</parent-name>
+            <parent-name>[JC2019-citibike-summer.csv]</parent-name>
             <remote-alias>end station latitude</remote-alias>
             <ordinal>9</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>end station longitude</remote-name>
             <remote-type>5</remote-type>
             <local-name>[end station longitude]</local-name>
-            <parent-name>[2019-citibike-summer.csv]</parent-name>
+            <parent-name>[JC2019-citibike-summer.csv]</parent-name>
             <remote-alias>end station longitude</remote-alias>
             <ordinal>10</ordinal>
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>bikeid</remote-name>
             <remote-type>20</remote-type>
             <local-name>[bikeid]</local-name>
-            <parent-name>[2019-citibike-summer.csv]</parent-name>
+            <parent-name>[JC2019-citibike-summer.csv]</parent-name>
             <remote-alias>bikeid</remote-alias>
             <ordinal>11</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>usertype</remote-name>
             <remote-type>129</remote-type>
             <local-name>[usertype]</local-name>
-            <parent-name>[2019-citibike-summer.csv]</parent-name>
+            <parent-name>[JC2019-citibike-summer.csv]</parent-name>
             <remote-alias>usertype</remote-alias>
             <ordinal>12</ordinal>
             <local-type>string</local-type>
@@ -254,25 +257,25 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>birth year</remote-name>
             <remote-type>20</remote-type>
             <local-name>[birth year]</local-name>
-            <parent-name>[2019-citibike-summer.csv]</parent-name>
+            <parent-name>[JC2019-citibike-summer.csv]</parent-name>
             <remote-alias>birth year</remote-alias>
             <ordinal>13</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>gender</remote-name>
             <remote-type>129</remote-type>
             <local-name>[gender]</local-name>
-            <parent-name>[2019-citibike-summer.csv]</parent-name>
+            <parent-name>[JC2019-citibike-summer.csv]</parent-name>
             <remote-alias>gender</remote-alias>
             <ordinal>14</ordinal>
             <local-type>string</local-type>
@@ -281,7 +284,7 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
@@ -360,7 +363,7 @@
       <column caption='Age' datatype='integer' name='[Calculation_6289206513975742472]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='2018- [birth year]' />
       </column>
-      <_.fcp.ObjectModelTableType.true...column caption='2019-citibike-summer.csv' datatype='table' name='[__tableau_internal_object_id__].[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='JC2019-citibike-summer.csv' datatype='table' name='[__tableau_internal_object_id__].[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]' role='measure' type='quantitative' />
       <column caption='Bikeid' datatype='integer' name='[bikeid]' role='measure' type='quantitative' />
       <column caption='Birth Year' datatype='integer' name='[birth year]' role='dimension' type='quantitative' />
       <column caption='End Station Id' datatype='integer' name='[end station id]' role='measure' type='quantitative' />
@@ -377,24 +380,16 @@
       <column caption='Tripduration' datatype='real' name='[tripduration]' role='measure' type='quantitative' />
       <column caption='Usertype' datatype='string' name='[usertype]' role='dimension' type='nominal' />
       <column-instance column='[Calculation_6289206513975742472]' derivation='Attribute' name='[attr:Calculation_6289206513975742472:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[start station id]' derivation='Attribute' name='[attr:start station id:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[tripduration]' derivation='Avg' name='[avg:tripduration:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Calculation_6289206513975742472]' derivation='Count' name='[cnt:Calculation_6289206513975742472:qk]' pivot='key' type='quantitative' />
       <column-instance column='[bikeid]' derivation='Count' name='[cnt:bikeid:qk]' pivot='key' type='quantitative' />
       <column-instance column='[gender]' derivation='Count' name='[cnt:gender:ok]' pivot='key' type='ordinal' />
       <column-instance column='[start station id]' derivation='Count' name='[cnt:start station id:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[tripduration]' derivation='Count' name='[cnt:tripduration:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Calculation_6289206513975742472]' derivation='CountD' name='[ctd:Calculation_6289206513975742472:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[gender]' derivation='CountD' name='[ctd:gender:ok]' pivot='key' type='ordinal' />
       <column-instance column='[Calculation_6289206513975742472]' derivation='None' name='[none:Calculation_6289206513975742472:qk]' pivot='key' type='quantitative' />
       <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
-      <column-instance column='[gender]' derivation='None' name='[none:gender:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[start station id]' derivation='None' name='[none:start station id:qk]' pivot='key' type='quantitative' />
       <column-instance column='[usertype]' derivation='None' name='[none:usertype:nk]' pivot='key' type='nominal' />
       <column-instance column='[Calculation_6289206513975742472]' derivation='Sum' name='[sum:Calculation_6289206513975742472:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[bikeid]' derivation='Sum' name='[sum:bikeid:qk]' pivot='key' type='quantitative' />
       <column-instance column='[start station id]' derivation='Sum' name='[sum:start station id:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[tripduration]' derivation='Sum' name='[sum:tripduration:qk]' pivot='key' type='quantitative' />
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
       <style>
         <style-rule element='mark'>
@@ -500,9 +495,9 @@
       </semantic-values>
       <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
         <objects>
-          <object caption='2019-citibike-summer.csv' id='2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862'>
+          <object caption='JC2019-citibike-summer.csv' id='JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F'>
             <properties context=''>
-              <relation connection='textscan.0n183i31ap8jmp16fhxar0nh0xtl' name='2019-citibike-summer.csv' table='[2019-citibike-summer#csv]' type='table'>
+              <relation connection='textscan.0qgj84904qvdqs126u2b50jewyl5' name='JC2019-citibike-summer.csv' table='[JC2019-citibike-summer#csv]' type='table'>
                 <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
                   <column datatype='real' name='tripduration' ordinal='0' />
                   <column datatype='datetime' name='starttime' ordinal='1' />
@@ -552,6 +547,13 @@
             <column-instance column='[end station longitude]' derivation='None' name='[none:end station longitude:qk]' pivot='key' type='quantitative' />
             <column-instance column='[end station name]' derivation='None' name='[none:end station name:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[none:end station latitude:qk]' included-values='in-range'>
+            <min>40.685395669999998</min>
+            <max>40.814325599999997</max>
+          </filter>
+          <slices>
+            <column>[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[none:end station latitude:qk]</column>
+          </slices>
           <aggregation value='true' />
         </view>
         <style>
@@ -768,7 +770,7 @@
             <mapsource name='Tableau' />
           </mapsources>
           <datasource-dependencies datasource='federated.1pwzjpb0ayu7r21fcbljt1kcbzx1'>
-            <_.fcp.ObjectModelTableType.false...column caption='2019-citibike-summer.csv' datatype='integer' name='[__tableau_internal_object_id__].[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='JC2019-citibike-summer.csv' datatype='integer' name='[__tableau_internal_object_id__].[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]' role='measure' type='quantitative' />
             <column caption='Generation' datatype='string' name='[Age Group]' role='dimension' type='nominal'>
               <calculation class='categorical-bin' column='[birth year]' default='&quot;Other&quot;' new-bin='true'>
                 <bin default-name='false' value='&quot;Boomer II&quot;'>
@@ -840,8 +842,8 @@
                 </bin>
               </calculation>
             </column>
-            <_.fcp.ObjectModelTableType.true...column caption='2019-citibike-summer.csv' datatype='table' name='[__tableau_internal_object_id__].[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]' role='measure' type='quantitative' />
-            <column-instance column='[__tableau_internal_object_id__].[2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='JC2019-citibike-summer.csv' datatype='table' name='[__tableau_internal_object_id__].[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F:qk]' pivot='key' type='quantitative' />
             <column caption='Birth Year' datatype='integer' name='[birth year]' role='dimension' type='quantitative' />
             <column-instance column='[usertype]' derivation='None' name='[none:usertype:nk]' pivot='key' type='nominal' />
             <column caption='Usertype' datatype='string' name='[usertype]' role='dimension' type='nominal' />
@@ -857,24 +859,24 @@
           </style-rule>
         </style>
         <panes>
-          <pane id='8' selection-relaxation-option='selection-relaxation-allow'>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow'>
             <view>
               <breakdown value='auto' />
             </view>
             <mark class='Automatic' />
             <encodings>
               <color column='[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[Age Group]' />
-              <text column='[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[__tableau_internal_object_id__].[cnt:2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862:qk]' />
+              <text column='[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[__tableau_internal_object_id__].[cnt:JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F:qk]' />
             </encodings>
             <style>
               <style-rule element='mark'>
-                <format attr='mark-labels-show' value='true' />
                 <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
               </style-rule>
             </style>
           </pane>
         </panes>
-        <rows>[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[__tableau_internal_object_id__].[cnt:2019-citibike-summer.csv_C39A86FF574240CEB71C93435E35E862:qk]</rows>
+        <rows>[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[__tableau_internal_object_id__].[cnt:JC2019-citibike-summer.csv_C8509B84523D47DAA44B3025E529C07F:qk]</rows>
         <cols>[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[none:usertype:nk]</cols>
       </table>
       <simple-id uuid='{9556AB79-A5FD-4A88-B5A9-3C7CAF2E1135}' />
@@ -1211,7 +1213,6 @@
             <column-instance column='[start station name]' derivation='None' name='[none:start station name:nk]' pivot='key' type='nominal' />
             <column caption='Start Station Id' datatype='integer' name='[start station id]' role='measure' type='quantitative' />
             <column caption='Start Station Name' datatype='string' name='[start station name]' role='dimension' type='nominal' />
-            <column-instance column='[start station id]' derivation='Sum' name='[sum:start station id:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[none:start station name:nk]'>
             <groupfilter count='15' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
@@ -1221,7 +1222,7 @@
             </groupfilter>
           </filter>
           <shelf-sorts>
-            <shelf-sort-v2 dimension-to-sort='[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[none:start station name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[sum:start station id:qk]' shelf='columns' />
+            <shelf-sort-v2 dimension-to-sort='[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[none:start station name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[cnt:start station id:qk]' shelf='columns' />
           </shelf-sorts>
           <slices>
             <column>[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[none:start station name:nk]</column>
@@ -1330,22 +1331,12 @@
               <flipboard active-id='6' nav-type='caption' show-nav-arrows='true'>
                 <story-points>
                   <story-point caption='Majority of the start locations seem to be concentrated around the same region of land.' captured-sheet='Start Locations on map' id='6'>
-                    <currentDeltas>
+                    <capturedDeltas>
                       <worksheet name='Start Locations on map'>
                         <style delta-type='added'>
                           <style-rule element='axis'>
                             <encoding attr='space' class='0' field='[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[none:start station latitude:qk]' field-type='quantitative' max='4976788.5305046299' min='4967150.6013564793' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
                             <encoding attr='space' class='0' field='[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[none:start station longitude:qk]' field-type='quantitative' max='-8238232.9053701479' min='-8248185.246011802' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-                          </style-rule>
-                        </style>
-                      </worksheet>
-                    </currentDeltas>
-                    <capturedDeltas>
-                      <worksheet name='Start Locations on map'>
-                        <style delta-type='added'>
-                          <style-rule element='axis'>
-                            <encoding attr='space' class='0' field='[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[none:start station latitude:qk]' field-type='quantitative' max='4977805.6278774403' min='4964643.1666151062' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-                            <encoding attr='space' class='0' field='[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[none:start station longitude:qk]' field-type='quantitative' max='-8235086.5297437701' min='-8248678.380871905' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
                           </style-rule>
                         </style>
                       </worksheet>
@@ -1368,7 +1359,7 @@
       </zones>
       <simple-id uuid='{16F67C9E-E506-4A1D-BC85-7EFD81E06F85}' />
     </dashboard>
-    <dashboard name='Ridership' type='storyboard'>
+    <dashboard name='Ridership in JC' type='storyboard'>
       <style />
       <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
       <zones>
@@ -1443,8 +1434,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='21' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='20' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='25' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='24' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Top 15 Start by Generation' w='82400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1532,8 +1523,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='35' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='34' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='39' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='38' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Top 15 Start by User' w='41200' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1576,9 +1567,9 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='dashboard' maximized='true' name='Ridership'>
+    <window class='dashboard' name='Ridership in JC'>
       <viewpoints />
-      <active id='-1' />
+      <active id='4' />
       <simple-id uuid='{ACD5A1FA-51CD-4A02-A939-D1FCBE88E5C4}' />
     </window>
     <window class='worksheet' name='No. of Trips'>
@@ -1603,7 +1594,7 @@
         </edge>
         <edge name='right'>
           <strip size='160'>
-            <card pane-specification-id='8' param='[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[Age Group]' type='color' />
+            <card pane-specification-id='10' param='[federated.1pwzjpb0ayu7r21fcbljt1kcbzx1].[Age Group]' type='color' />
           </strip>
         </edge>
       </cards>
@@ -1664,6 +1655,11 @@
         </edge>
       </cards>
       <simple-id uuid='{6BE0799B-6E1C-4010-9986-F6A8CDB8E1BD}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Popularity'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{90E6EE01-5990-4DF6-BA49-FACFC6AB1769}' />
     </window>
     <window class='dashboard' name='Station Popularity by User'>
       <viewpoints>
@@ -1733,11 +1729,6 @@
       </cards>
       <simple-id uuid='{3B4DA5F1-DD9E-49F8-B89D-999185D8C3CB}' />
     </window>
-    <window class='dashboard' name='Popularity'>
-      <viewpoints />
-      <active id='4' />
-      <simple-id uuid='{90E6EE01-5990-4DF6-BA49-FACFC6AB1769}' />
-    </window>
     <window class='worksheet' name='Start Locations on map'>
       <cards>
         <edge name='left'>
@@ -1806,7 +1797,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='9' />
+      <active id='3' />
       <simple-id uuid='{B2171C8A-5381-460C-B60F-42014A61D09D}' />
     </window>
     <window class='worksheet' name='Top 15 Start by Generation'>
