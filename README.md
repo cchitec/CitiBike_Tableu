@@ -18,4 +18,5 @@ Asking the following questions, among others:
   - Which was the most popular day to rent a bike across the generations?
 
 It became evident that bike usage was most common amongs Millenial males, closely followed by Gen X males, as visible in the below Generation use by gender image:
-<img width="984" alt="Screen Shot 2021-08-10 at 1 51 23 AM" src="https://user-images.githubusercontent.com/79786994/128829606-749ba947-76b0-4fdd-94b0-0be207d2468a.png">
+
+<img width="1002" alt="Screen Shot 2021-08-10 at 2 04 45 AM" src="https://user-images.githubusercontent.com/79786994/128831216-62565f72-5a9b-4c5c-aced-57d5cd5b7a9c.png">
